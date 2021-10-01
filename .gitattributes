@@ -4,6 +4,12 @@
 * text=auto
 
 ###############################################################################
+# Remove included libraries language detection.
+###############################################################################
+
+*.h linguist-detectable=false
+
+###############################################################################
 # Set default behavior for command prompt diff.
 #
 # This is need for earlier builds of msysgit that does not have it on by
